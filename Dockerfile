@@ -6,3 +6,6 @@ WORKDIR /app
 RUN npm ci
 
 RUN node server.js
+
+EXPOSE 3000
+EXPOSE 4000
